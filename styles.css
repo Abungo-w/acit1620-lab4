@@ -9,6 +9,10 @@ header {
     padding: 3rem;
 }
 
+main {
+    margin-bottom: 50px;
+}
+
 p {
     color: hsl(var(--base-color), 30%);
 }
@@ -43,6 +47,10 @@ li:hover {
 }
 
 footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
     padding: 1rem;
     border-top: 1px solid hsl(var(--base-color), 0%);
     text-align: center;
